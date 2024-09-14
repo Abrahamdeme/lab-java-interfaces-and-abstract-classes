@@ -21,8 +21,8 @@ class BigDecimalClass {
         BigDecimal result1 = reverseSignAndRound(number1);
         BigDecimal result2 = reverseSignAndRound(number2);
 
-        System.out.println("Reversed and rounded (1.2345): " + result1);  // Should print: -1.2
-        System.out.println("Reversed and rounded (-45.67): " + result2);  // Should print: 45.7
+        System.out.println("Reversed and rounded (1.2345): " + result1); 
+        System.out.println("Reversed and rounded (-45.67): " + result2);  
     }
 }
 // end
